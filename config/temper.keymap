@@ -98,7 +98,7 @@
             key-positions = <7 8>;
             layers = <0>;
         };
-    }
+    };
 
     keymap {
         compatible = "zmk,keymap";
