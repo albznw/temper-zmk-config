@@ -172,10 +172,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans  &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &yabai_foc_left  &trans  &trans  &yabai_foc_right  &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans  &trans            &trans
+                &trans  &trans  &trans  &trans           &trans  &trans
             >;
         };
     };
