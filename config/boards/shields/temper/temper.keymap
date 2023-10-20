@@ -152,6 +152,32 @@
 
             label = "YABAI_MAXIMIZE";
         };
+        yabai_mirror: yabai_mirror {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp Y>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT &kp LEFT_ALT>;
+
+            label = "YABAI_MIRROR";
+        };
+        yabai_balance: yabai_balance {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp E>,
+                <&macro_press>,
+                <&kp LSHFT &kp LEFT_ALT>;
+
+            label = "YABAI_BALANCE";
+        };
     };
 
     keymap {
@@ -204,10 +230,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans  &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &yabai_foc_left  &trans  &trans  &yabai_foc_right  &trans
-&trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans  &trans            &trans
-                &trans  &trans  &trans  &trans           &trans  &trans
+&none  &none  &none  &none  &none  &none            &none  &yabai_balance  &yabai_mirror     &none
+&none  &none  &none  &none  &none  &yabai_foc_left  &none  &none           &yabai_foc_right  &none
+&none  &none  &none  &none  &none  &none            &none  &none           &none             &none
+              &none  &none  &none  &none            &none  &none
             >;
         };
     };
