@@ -98,6 +98,28 @@
             key-positions = <7 8>;
             layers = <0>;
         };
+
+        combo_yabai_lyr {
+            bindings = <&sl 5>;
+            key-positions = <27 28>;
+        };
+    };
+
+    macros {
+        yabai_foc_left: yabai_foc_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press>, <&kp LEFT_ALT &kp H>, <&macro_release>;
+
+            label = "YABAI_FOC_LEFT";
+        };
+        yabai_foc_right: yabai_foc_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press>, <&kp LALT &kp L>, <&macro_release>;
+
+            label = "YABAI_FOC_RIGHT";
+        };
     };
 
     keymap {
@@ -145,6 +167,15 @@
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans       &kp F4  &kp F5  &kp F6  &kp F11
 &trans        &trans        &bt BT_CLR    &trans        &trans        &trans       &kp F1  &kp F2  &kp F3  &kp F10
                             &trans        &trans        &trans        &trans       &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
