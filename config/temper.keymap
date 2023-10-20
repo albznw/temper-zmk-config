@@ -102,6 +102,7 @@
         combo_yabai_lyr {
             bindings = <&sl 5>;
             key-positions = <27 28>;
+            layers = <0>;
         };
 
         combo_maximize_yabai {
