@@ -173,7 +173,7 @@
                 <&kp LSHFT &kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp E>,
-                <&macro_press>,
+                <&macro_release>,
                 <&kp LSHFT &kp LEFT_ALT>;
 
             label = "YABAI_BALANCE";
