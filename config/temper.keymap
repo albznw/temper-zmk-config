@@ -290,10 +290,10 @@
 
         macro_layer {
             bindings = <
-&none  &none  &none  &none  &none  &none            &none  &yabai_balance  &yabai_mirror     &none
-&none  &none  &none  &none  &none  &yabai_foc_left  &none  &none           &yabai_foc_right  &none
-&none  &none  &none  &none  &none  &none            &none  &none           &none             &none
-              &none  &none  &none  &none            &none  &none
+&none  &none  &none  &none  &none  &none            &none           &yabai_balance  &yabai_mirror     &none
+&none  &none  &none  &none  &none  &yabai_foc_left  &tmux_window_4  &none           &yabai_foc_right  &none
+&none  &none  &none  &none  &none  &none            &tmux_window_1  &tmux_window_2  &tmux_window_3    &none
+              &none  &none  &none  &none            &none           &none
             >;
         };
     };
