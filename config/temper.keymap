@@ -128,6 +128,18 @@
             key-positions = <11 12>;
             layers = <0>;
         };
+
+        combo_bracket_pair {
+            bindings = <&braces_pair>;
+            key-positions = <13 12>;
+            layers = <0>;
+        };
+
+        combo_bracket_pair {
+            bindings = <&bracket_pair>;
+            key-positions = <21 22>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -271,6 +283,20 @@
                 <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS>;
 
             label = "MACRO_PARENTHESIS_PAIR";
+        };
+        braces_pair: braces_pair {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_BRACE &kp RIGHT_BRACE>;
+
+            label = "BRACES_PAIR";
+        };
+        bracket_pair: bracket_pair {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_BRACKET &kp RIGHT_BRACKET>;
+
+            label = "BRACKET_PAIR";
         };
     };
 
