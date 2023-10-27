@@ -122,6 +122,12 @@
             key-positions = <13 12>;
             layers = <2>;
         };
+
+        combo_parenthesis_pair {
+            bindings = <&macro_parenthesis_pair>;
+            key-positions = <11 12>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -257,6 +263,15 @@
 
             label = "MACRO_END_TAG";
         };
+        macro_parenthesis_pair: macro_parenthesis_pair {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS>;
+
+            label = "MACRO_PARENTHESIS_PAIR";
+        };
     };
 
     keymap {
@@ -282,10 +297,10 @@
 
         num_layer {
             bindings = <
-&kp GRAVE   &kp AT    &kp LBRC  &kp RBRC  &kp PRCNT  &kp STAR     &kp N7     &kp N8  &kp N9  &kp MINUS
-&slh_morph  &kp HASH  &kp LPAR  &kp RPAR  &kp DLLR   &kp UNDER    &kp N4     &kp N5  &kp N6  &kp EQUAL
-&none       &kp LT    &kp LBKT  &kp RBKT  &kp GT     &amps_morph  &kp N1     &kp N2  &kp N3  &kp SEMI
-                      &trans    &trans    &trans     &kp N0       &sk LSHFT  &trans
+&kp GRAVE   &kp AT    &kp LBRC  &kp RBRC  &kp PRCNT  &kp STAR    &kp N7     &kp N8  &kp N9  &kp MINUS
+&slh_morph  &kp HASH  &kp LPAR  &kp RPAR  &kp DLLR   &kp UNDER   &kp N4     &kp N5  &kp N6  &kp EQUAL
+&none       &kp LT    &kp LBKT  &kp RBKT  &kp GT     &kp KP_DOT  &kp N1     &kp N2  &kp N3  &kp SEMI
+                      &trans    &trans    &trans     &kp N0      &sk LSHFT  &trans
             >;
         };
 
