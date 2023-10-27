@@ -129,7 +129,7 @@
             layers = <0>;
         };
 
-        combo_bracket_pair {
+        combo_braces_pair {
             bindings = <&braces_pair>;
             key-positions = <13 12>;
             layers = <0>;
