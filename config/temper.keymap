@@ -14,9 +14,6 @@
 #define NAV 3
 #define FUN 4
 
-&sk {
-  quick-release;
-}
 
 / {
     conditional_layers {
@@ -345,6 +342,9 @@
         };
     };
 
+/ &sk {
+  quick-release;
+}
     keymap {
         compatible = "zmk,keymap";
 
