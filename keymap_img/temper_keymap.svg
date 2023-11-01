@@ -425,12 +425,6 @@ path {
 <rect rx="6" ry="6" x="164" y="82" width="28" height="26" class="combo"/>
 <text x="178" y="95" class="combo tap">&gt;</text>
 </g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="714" y="111" width="28" height="26" class="combo"/>
-<text x="728" y="124" class="combo tap">
-<tspan x="728" dy="-0.6em">KP</tspan><tspan x="728" dy="1.2em">EQUAL</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 709)" class="layer-nav">
@@ -589,12 +583,6 @@ path {
 <g transform="translate(599, 228)" class="key held keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key held"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="714" y="111" width="28" height="26" class="combo"/>
-<text x="728" y="124" class="combo tap">
-<tspan x="728" dy="-0.6em">KP</tspan><tspan x="728" dy="1.2em">EQUAL</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1063)" class="layer-fun">
@@ -749,12 +737,6 @@ path {
 <g transform="translate(599, 228)" class="key held keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key held"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="714" y="111" width="28" height="26" class="combo"/>
-<text x="728" y="124" class="combo tap">
-<tspan x="728" dy="-0.6em">KP</tspan><tspan x="728" dy="1.2em">EQUAL</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1417)" class="layer-macro">
@@ -881,12 +863,6 @@ path {
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="655" y="137" width="28" height="26" class="combo"/>
 <text x="669" y="150" class="combo tap"><tspan style="font-size: 60%">&amp;yabai_maximize</tspan></text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="714" y="111" width="28" height="26" class="combo"/>
-<text x="728" y="124" class="combo tap">
-<tspan x="728" dy="-0.6em">KP</tspan><tspan x="728" dy="1.2em">EQUAL</tspan>
-</text>
 </g>
 </g>
 </g>
