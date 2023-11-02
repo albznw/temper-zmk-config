@@ -350,10 +350,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P                            &kp B        &kp J      &kp L      &kp U        &kp Y       &kp APOS
-&kp A  &kp R  &kp S  &kp T                            &kp G        &kp M      &kp N      &kp E        &kp I       &kp O
-&kp Z  &kp X  &kp C  &kp D                            &kp V        &kp K      &kp H      &comma_semi  &dot_colon  &kp SLASH
-              &sl 2  &mt_balanced LS(LC(LALT)) SPACE  &smart_shft  &kp ENTER  &bspc_del  &sl NAV
+&kp Q  &kp W  &kp F   &kp P                            &kp B        &kp J      &kp L      &kp U        &kp Y       &kp APOS
+&kp A  &kp R  &kp S   &kp T                            &kp G        &kp M      &kp N      &kp E        &kp I       &kp O
+&kp Z  &kp X  &kp C   &kp D                            &kp V        &kp K      &kp H      &comma_semi  &dot_colon  &kp SLASH
+              &tog 2  &mt_balanced LS(LC(LALT)) SPACE  &smart_shft  &kp ENTER  &bspc_del  &sl NAV
             >;
         };
 
@@ -371,7 +371,7 @@
 &kp GRAVE      &kp AT    &kp LBRC  &kp RBRC  &kp PRCNT  &kp STAR    &kp N7     &kp N8  &kp N9  &kp MINUS
 &kp PIPE       &kp HASH  &kp LPAR  &kp RPAR  &kp DLLR   &kp UNDER   &kp N4     &kp N5  &kp N6  &kp EQUAL
 &kp BACKSLASH  &kp LT    &kp LBKT  &kp RBKT  &kp GT     &kp KP_DOT  &kp N1     &kp N2  &kp N3  &kp SEMI
-                         &trans    &trans    &trans     &kp N0      &sk LSHFT  &trans
+                         &trans    &tog 2    &trans     &kp N0      &sk LSHFT  &trans
             >;
         };
 
