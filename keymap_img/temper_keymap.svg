@@ -546,11 +546,11 @@ path {
 </g>
 <g transform="translate(580, 162)" class="key keypos-26">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;ctrl_d</text>
+<text x="0" y="0" class="key tap">LC(D)</text>
 </g>
 <g transform="translate(639, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;ctrl_u</text>
+<text x="0" y="0" class="key tap">LC(U)</text>
 </g>
 <g transform="translate(698, 160)" class="key trans keypos-28">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
@@ -766,11 +766,11 @@ path {
 </g>
 <g transform="translate(639, 28)" class="key keypos-7">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;yabai_balance</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">LS(LA(E))</tspan></text>
 </g>
 <g transform="translate(698, 48)" class="key keypos-8">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;yabai_mirror</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">LS(LA(Y))</tspan></text>
 </g>
 <g transform="translate(758, 87)" class="key keypos-9">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -792,7 +792,7 @@ path {
 </g>
 <g transform="translate(520, 114)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;yabai_foc_left</tspan></text>
+<text x="0" y="0" class="key tap">LA(H)</text>
 </g>
 <g transform="translate(580, 106)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -803,7 +803,7 @@ path {
 </g>
 <g transform="translate(698, 104)" class="key keypos-18">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;yabai_foc_right</tspan></text>
+<text x="0" y="0" class="key tap">LA(L)</text>
 </g>
 <g transform="translate(758, 143)" class="key keypos-19">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -863,7 +863,7 @@ path {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="655" y="137" width="28" height="26" class="combo"/>
-<text x="669" y="150" class="combo tap"><tspan style="font-size: 60%">&amp;yabai_maximize</tspan></text>
+<text x="669" y="150" class="combo tap"><tspan style="font-size: 78%">LS(LA(M))</tspan></text>
 </g>
 </g>
 </g>
