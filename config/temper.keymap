@@ -159,6 +159,13 @@
             key-positions = <19 18>;
             layers = <0>;
         };
+
+        combo_del_word {
+            bindings = <&kp LA(BACKSPACE)>;
+            key-positions = <17 18>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
     };
 
     macros {
