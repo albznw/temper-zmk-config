@@ -140,24 +140,28 @@
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <11 12>;
             layers = <0>;
+            require-prior-idle-ms = <100>;
         };
 
         combo_braces {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <13 12>;
             layers = <0>;
+            require-prior-idle-ms = <100>;
         };
 
         combo_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <21 22>;
             layers = <0>;
+            require-prior-idle-ms = <100>;
         };
 
         equals_combo {
             bindings = <&kp KP_EQUAL>;
             key-positions = <19 18>;
             layers = <0>;
+            require-prior-idle-ms = <100>;
         };
 
         combo_del_word {
