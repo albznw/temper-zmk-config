@@ -170,6 +170,12 @@
             require-prior-idle-ms = <100>;
             layers = <0>;
         };
+
+        combo_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <9 8>;
+            layers = <0>;
+        };
     };
 
     macros {
