@@ -38,6 +38,7 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RSFT)>;
         };
+
         smart_shft: smart_shift {
             compatible = "zmk,behavior-mod-morph";
             label = "SMART_SHIFT";
@@ -46,6 +47,7 @@
 
             mods = <(MOD_LSFT)>;
         };
+
         comma_semi: comma_semi {
             compatible = "zmk,behavior-mod-morph";
             label = "COMMA_SEMI";
@@ -54,6 +56,7 @@
 
             mods = <(MOD_LSFT)>;
         };
+
         dot_colon: dot_colon {
             compatible = "zmk,behavior-mod-morph";
             label = "DOT_COLON";
@@ -62,6 +65,7 @@
 
             mods = <(MOD_LSFT)>;
         };
+
         qmrk_excl: qmrk_excl {
             compatible = "zmk,behavior-mod-morph";
             label = "QUESTION_EXCLAMATION";
@@ -70,6 +74,7 @@
 
             mods = <(MOD_LSFT)>;
         };
+
         slh_morph: slh_morph {
             compatible = "zmk,behavior-mod-morph";
             label = "SLASH_MORPH";
@@ -78,6 +83,7 @@
 
             mods = <(MOD_LSFT)>;
         };
+
         amps_morph: amps_morph {
             compatible = "zmk,behavior-mod-morph";
             label = "AMPERSAND_MORPH";
@@ -86,6 +92,7 @@
 
             mods = <(MOD_LSFT)>;
         };
+
         mt_balanced: mt_balanced {
             compatible = "zmk,behavior-hold-tap";
             label = "MT_BALANCED";
@@ -138,23 +145,23 @@
 
         combo_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <11 12>;
+            key-positions = <11 13>;
             layers = <0>;
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <200>;
         };
 
         combo_braces {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <13 12>;
+            key-positions = <1 3>;
             layers = <0>;
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <200>;
         };
 
         combo_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <21 22>;
+            key-positions = <21 23>;
             layers = <0>;
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <200>;
         };
 
         equals_combo {
@@ -176,6 +183,27 @@
             key-positions = <9 8>;
             layers = <0>;
         };
+
+        combo_closeP {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <12 13>;
+            layers = <0>;
+            require-prior-idle-ms = <200>;
+        };
+
+        combo_closeBrc {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <2 3>;
+            layers = <0>;
+            require-prior-idle-ms = <200>;
+        };
+
+        combo_closeBrk {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <22 23>;
+            layers = <0>;
+            require-prior-idle-ms = <200>;
+        };
     };
 
     macros {
@@ -194,6 +222,7 @@
 
             label = "TMUX_WINDOW_1";
         };
+
         tmux_window_2: tmux_window_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -209,6 +238,7 @@
 
             label = "TMUX_WINDOW_2";
         };
+
         tmux_window_3: tmux_window_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -224,6 +254,7 @@
 
             label = "TMUX_WINDOW_3";
         };
+
         tmux_window_4: tmux_window_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -239,6 +270,7 @@
 
             label = "TMUX_WINDOW_4";
         };
+
         macro_end_tag: macro_end_tag {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -246,6 +278,7 @@
 
             label = "MACRO_END_TAG";
         };
+
         macro_parenthesis_pair: macro_parenthesis_pair {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -255,6 +288,7 @@
 
             label = "MACRO_PARENTHESIS_PAIR";
         };
+
         braces_pair: braces_pair {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -262,6 +296,7 @@
 
             label = "BRACES_PAIR";
         };
+
         bracket_pair: bracket_pair {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
