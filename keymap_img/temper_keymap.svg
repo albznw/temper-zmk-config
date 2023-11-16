@@ -285,6 +285,10 @@ path {
 <rect rx="6" ry="6" x="164" y="138" width="28" height="26" class="combo"/>
 <text x="178" y="151" class="combo tap">]</text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="714" y="167" width="28" height="26" class="combo"/>
+<text x="728" y="180" class="combo tap">-</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 354)" class="layer-num">
