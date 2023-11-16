@@ -367,7 +367,7 @@
 
         macro_layer {
             bindings = <
-&tmux_window_1  &tmux_window_2  &tmux_window_3      &tmux_window_4  &none      &none      &kp LA(L)       &kp LS(LA(E))   &kp LS(LA(Y))   &none
+&tmux_window_1  &tmux_window_2  &tmux_window_3      &tmux_window_4  &none      &none      &kp LA(H)       &kp LS(LA(E))   &kp LS(LA(Y))   &none
 &kp LG(SPACE)   &kp LA(L)       &kp LG(LS(LC(N4)))  &none           &none      &kp LC(H)  &kp LC(J)       &kp LC(K)       &kp LC(L)       &none
 &none           &none           &kp LG(C)           &none           &kp LG(V)  &none      &tmux_window_1  &tmux_window_2  &tmux_window_3  &none
                                 &none               &none           &none      &none      &none           &none
