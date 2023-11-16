@@ -215,6 +215,12 @@
             layers = <0>;
             require-prior-idle-ms = <100>;
         };
+
+        combo_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <29 28>;
+            layers = <0>;
+        };
     };
 
     macros {
