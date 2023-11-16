@@ -322,10 +322,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P                            &kp B        &kp J                   &kp L                   &kp U                   &kp Y                   &kp APOS
-&kp A  &kp R  &kp S  &kp T                            &kp G        &tap_preferred LC(H) M  &tap_preferred LC(J) N  &tap_preferred LC(K) E  &tap_preferred LC(L) I  &kp O
-&kp Z  &kp X  &kp C  &kp D                            &kp V        &kp K                   &kp H                   &comma_semi             &dot_colon              &kp SLASH
-              &sl 2  &mt_balanced LS(LC(LALT)) SPACE  &smart_shft  &kp ENTER               &bspc_del               &sl NAV
+&kp Q  &kp W  &kp F  &kp P                            &kp B        &kp J      &kp L      &kp U        &kp Y       &kp APOS
+&kp A  &kp R  &kp S  &kp T                            &kp G        &kp M      &kp N      &kp E        &kp I       &kp O
+&kp Z  &kp X  &kp C  &kp D                            &kp V        &kp K      &kp H      &comma_semi  &dot_colon  &kp SLASH
+              &sl 2  &mt_balanced LS(LC(LALT)) SPACE  &smart_shft  &kp ENTER  &bspc_del  &sl NAV
             >;
         };
 
