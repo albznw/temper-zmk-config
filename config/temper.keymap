@@ -148,8 +148,8 @@
             layers = <2>;
         };
 
-        combo_greater_than {
-            bindings = <&kp GREATER_THAN>;
+        combo_arrow {
+            bindings = <&macro_arrow>;
             key-positions = <13 12>;
             layers = <2>;
         };
@@ -321,6 +321,14 @@
 
             label = "BRACKET_PAIR";
         };
+
+        macro_arrow: macro_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp MINUS &kp GREATER_THAN>;
+
+            label = "MACRO_ARROW";
+        };
     };
 
     keymap {
@@ -346,10 +354,10 @@
 
         num_layer {
             bindings = <
-&kp GRAVE      &kp AT    &kp LBRC  &kp RBRC  &kp PRCNT       &kp STAR    &kp N7      &kp N8  &kp N9  &kp MINUS
-&kp HASH       &kp PIPE  &kp LPAR  &kp RPAR  &kp DLLR        &kp UNDER   &kp N4      &kp N5  &kp N6  &kp PLUS
-&kp BACKSLASH  &kp LT    &kp LBKT  &kp RBKT  &kp GT          &kp KP_DOT  &kp N1      &kp N2  &kp N3  &kp SEMI
-                         &trans    &trans    &sk LEFT_SHIFT  &kp N0      &kp LSHIFT  &trans
+&kp GRAVE      &kp AT    &kp LBRC       &kp RBRC          &kp PRCNT       &kp STAR    &kp N7      &kp N8  &kp N9  &kp MINUS
+&kp HASH       &kp PIPE  &kp LESS_THAN  &kp GREATER_THAN  &kp DLLR        &kp UNDER   &kp N4      &kp N5  &kp N6  &kp PLUS
+&kp BACKSLASH  &kp LT    &kp LBKT       &kp RBKT          &kp GT          &kp KP_DOT  &kp N1      &kp N2  &kp N3  &kp SEMI
+                         &trans         &trans            &sk LEFT_SHIFT  &kp N0      &kp LSHIFT  &trans
             >;
         };
 
