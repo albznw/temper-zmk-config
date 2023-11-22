@@ -363,10 +363,10 @@
 
         nav_layer {
             bindings = <
-&kp TAB         &trans           &trans     &trans        &trans     &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)  &trans
-&sk LEFT_SHIFT  &sk LCTRL        &sk LALT   &sk LGUI      &trans     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp ESC
-&kp C_VOL_DN    &kp C_VOLUME_UP  &kp LG(C)  &kp LA(BSPC)  &kp LG(V)  &trans     &kp LC(D)  &kp LC(U)  &trans     &trans
-                                 &trans     &trans        &trans     &trans     &trans     &trans
+&kp TAB         &trans           &trans     &trans    &trans     &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)  &trans
+&sk LEFT_SHIFT  &sk LCTRL        &sk LALT   &sk LGUI  &trans     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp ESC
+&kp C_VOL_DN    &kp C_VOLUME_UP  &kp LG(C)  &none     &kp LG(V)  &trans     &kp LC(D)  &kp LC(U)  &trans     &trans
+                                 &trans     &trans    &trans     &trans     &trans     &trans
             >;
         };
 
