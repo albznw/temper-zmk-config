@@ -221,6 +221,13 @@
             key-positions = <29 28>;
             layers = <0>;
         };
+
+        combo_fat_arrow {
+            bindings = <&macro_fat_arrow>;
+            key-positions = <19 18>;
+            require-prior-idle-ms = <0>;
+            layers = <2>;
+        };
     };
 
     macros {
@@ -328,6 +335,14 @@
             bindings = <&macro_tap>, <&kp MINUS &kp GREATER_THAN>;
 
             label = "MACRO_ARROW";
+        };
+
+        macro_fat_arrow: macro_fat_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp KP_EQUAL &kp GREATER_THAN>;
+
+            label = "MACRO_FAT_ARROW";
         };
     };
 
