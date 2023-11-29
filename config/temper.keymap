@@ -303,32 +303,6 @@
             label = "MACRO_END_TAG";
         };
 
-        macro_parenthesis_pair: macro_parenthesis_pair {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS>;
-
-            label = "MACRO_PARENTHESIS_PAIR";
-        };
-
-        braces_pair: braces_pair {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LEFT_BRACE &kp RIGHT_BRACE>;
-
-            label = "BRACES_PAIR";
-        };
-
-        bracket_pair: bracket_pair {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LEFT_BRACKET &kp RIGHT_BRACKET>;
-
-            label = "BRACKET_PAIR";
-        };
-
         macro_arrow: macro_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -343,6 +317,14 @@
             bindings = <&macro_tap>, <&kp KP_EQUAL &kp GREATER_THAN>;
 
             label = "MACRO_FAT_ARROW";
+        };
+
+        tmux_session_macro: tmux_session_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press>, <&kp LC(A) &kp LS(S)>;
+
+            label = "TMUX_SESSION_MACRO";
         };
     };
 
@@ -396,10 +378,10 @@
 
         macro_layer {
             bindings = <
-&tmux_window_1  &tmux_window_2  &tmux_window_3      &tmux_window_4  &none      &none          &kp LA(H)       &kp LS(LA(E))   &kp LS(LA(Y))   &none
-&kp LG(SPACE)   &kp LA(L)       &kp LG(LS(LC(N4)))  &none           &none      &kp LA(LS(H))  &kp LS(LA(G))   &kp LA(LS(S))   &kp LS(LA(L))   &none
-&none           &none           &kp LG(C)           &none           &kp LG(V)  &none          &tmux_window_1  &tmux_window_2  &tmux_window_3  &none
-                                &none               &none           &none      &none          &none           &none
+&tmux_window_1  &tmux_window_2  &tmux_window_3      &tmux_window_4       &none      &none          &kp LA(H)       &kp LS(LA(E))   &kp LS(LA(Y))   &none
+&kp LG(SPACE)   &kp LA(L)       &kp LG(LS(LC(N4)))  &tmux_session_macro  &none      &kp LA(LS(H))  &kp LS(LA(G))   &kp LA(LS(S))   &kp LS(LA(L))   &none
+&none           &none           &kp LG(C)           &none                &kp LG(V)  &none          &tmux_window_1  &tmux_window_2  &tmux_window_3  &none
+                                &none               &none                &none      &none          &none           &none
             >;
         };
     };
