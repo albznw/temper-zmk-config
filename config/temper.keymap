@@ -327,6 +327,8 @@
                 <&kp LCTRL>,
                 <&macro_tap>,
                 <&kp A>,
+                <&macro_release>,
+                <&kp LCTRL>,
                 <&macro_tap>,
                 <&kp LS(S)>;
 
