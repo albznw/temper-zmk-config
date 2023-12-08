@@ -341,9 +341,9 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P                            &kp B        &kp J      &kp L      &kp U        &kp Y       &kp APOS
-&kp A  &kp R  &kp S  &kp T                            &kp G        &kp M      &kp N      &kp E        &kp I       &kp O
-&kp Z  &kp X  &kp C  &kp D                            &kp V        &kp K      &kp H      &comma_semi  &dot_colon  &kp SLASH
+&kp Q  &kp W  &kp F  &kp P                            &kp B        &kp J      &kp L      &kp U    &kp Y       &kp APOS
+&kp A  &kp R  &kp S  &kp T                            &kp G        &kp M      &kp N      &kp E    &kp I       &kp O
+&kp Z  &kp X  &kp C  &kp D                            &kp V        &kp K      &kp H      &kp DOT  &dot_colon  &kp SLASH
               &sl 2  &mt_balanced LS(LC(LALT)) SPACE  &smart_shft  &kp ENTER  &bspc_del  &sl NAV
             >;
         };
@@ -359,10 +359,10 @@
 
         num_layer {
             bindings = <
-&kp EXCLAMATION  &kp AT         &kp KP_SLASH  &kp GRAVE         &kp PRCNT  &kp STAR    &kp N7      &kp N8  &kp N9  &kp COMMA
-&kp HASH         &kp LESS_THAN  &kp PIPE      &kp GREATER_THAN  &kp DLLR   &kp UNDER   &kp N4      &kp N5  &kp N6  &kp PLUS
-&kp BACKSLASH    &kp COMMA      &kp LBKT      &kp RBKT          &kp GT     &kp KP_DOT  &kp N1      &kp N2  &kp N3  &kp SEMI
-                                &trans        &trans            &trans     &kp N0      &kp LSHIFT  &trans
+&kp EXCLAMATION  &kp AT         &kp KP_SLASH  &kp GRAVE         &kp PRCNT     &kp STAR    &kp N7      &kp N8  &kp N9  &kp COMMA
+&kp HASH         &kp LESS_THAN  &kp PIPE      &kp GREATER_THAN  &kp DLLR      &kp UNDER   &kp N4      &kp N5  &kp N6  &kp PLUS
+&kp BACKSLASH    &kp COMMA      &kp KP_DOT    &kp RBKT          &kp ASTERISK  &kp KP_DOT  &kp N1      &kp N2  &kp N3  &kp SEMI
+                                &trans        &trans            &trans        &kp N0      &kp LSHIFT  &trans
             >;
         };
 
