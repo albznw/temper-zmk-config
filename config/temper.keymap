@@ -219,7 +219,7 @@
         combo_minus {
             bindings = <&kp MINUS>;
             key-positions = <29 28>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         combo_fat_arrow {
