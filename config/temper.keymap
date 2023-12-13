@@ -103,10 +103,10 @@
             flavor = "balanced";
         };
 
-        tap_preferred: tap_preferred {
+        a_ae: a_ae {
             compatible = "zmk,behavior-hold-tap";
-            label = "TAP_PREFERRED";
-            bindings = <&kp>, <&kp>;
+            label = "A_AE";
+            bindings = <&macro_oe>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <170>;
@@ -334,6 +334,22 @@
 
             label = "TMUX_SESSION_MACRO";
         };
+
+        macro_ae: macro_ae {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp DOUBLE_QUOTES &kp A>;
+
+            label = "MACRO_AE";
+        };
+
+        macro_oe: macro_oe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp DOUBLE_QUOTES &kp A>;
+
+            label = "MACRO_OE";
+        };
     };
 
     keymap {
@@ -341,10 +357,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P                            &kp B        &kp J      &kp L      &kp U      &kp Y       &kp APOS
-&kp A  &kp R  &kp S  &kp T                            &kp G        &kp M      &kp N      &kp E      &kp I       &kp O
-&kp Z  &kp X  &kp C  &kp D                            &kp V        &kp K      &kp H      &kp COMMA  &dot_colon  &kp SLASH
-              &sl 2  &mt_balanced LS(LC(LALT)) SPACE  &smart_shft  &kp ENTER  &bspc_del  &sl 3
+&kp Q      &kp W  &kp F  &kp P                            &kp B        &kp J      &kp L      &kp U      &kp Y       &kp APOS
+&a_ae 0 A  &kp R  &kp S  &kp T                            &kp G        &kp M      &kp N      &kp E      &kp I       &kp O
+&kp Z      &kp X  &kp C  &kp D                            &kp V        &kp K      &kp H      &kp COMMA  &dot_colon  &kp SLASH
+                  &sl 2  &mt_balanced LS(LC(LALT)) SPACE  &smart_shft  &kp ENTER  &bspc_del  &sl 3
             >;
         };
 
