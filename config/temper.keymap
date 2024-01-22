@@ -176,13 +176,6 @@
             layers = <0>;
         };
 
-        combo_fat_arrow {
-            bindings = <&macro_fat_arrow>;
-            key-positions = <16 17>;
-            require-prior-idle-ms = <0>;
-            layers = <0>;
-        };
-
         cobmo_close_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <18 16>;
@@ -194,12 +187,6 @@
             key-positions = <17 16>;
             layers = <0>;
             require-prior-idle-ms = <0>;
-        };
-
-        cobmo_close_parenthesis {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <18 16>;
-            layers = <0>;
         };
 
         combo_close_braces {
