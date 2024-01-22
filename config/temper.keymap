@@ -129,12 +129,6 @@
             layers = <5>;
         };
 
-        combo_less_than {
-            bindings = <&kp LESS_THAN>;
-            key-positions = <11 12>;
-            layers = <2>;
-        };
-
         combo_arrow {
             bindings = <&macro_arrow>;
             key-positions = <13 14>;
@@ -182,24 +176,24 @@
             layers = <0>;
         };
 
-        combo_closeBrk {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <22 23>;
-            layers = <0>;
-            require-prior-idle-ms = <100>;
-        };
-
-        combo_minus {
-            bindings = <&kp MINUS>;
-            key-positions = <29 28>;
-            layers = <0 2>;
-        };
-
         combo_fat_arrow {
             bindings = <&macro_fat_arrow>;
             key-positions = <16 17>;
             require-prior-idle-ms = <0>;
             layers = <0>;
+        };
+
+        cobmo_close_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <18 16>;
+            layers = <0>;
+        };
+
+        combo_fat_arrow {
+            bindings = <&macro_fat_arrow>;
+            key-positions = <17 16>;
+            layers = <0>;
+            require-prior-idle-ms = <0>;
         };
 
         cobmo_close_parenthesis {
