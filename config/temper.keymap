@@ -131,7 +131,7 @@
 
         combo_arrow {
             bindings = <&macro_arrow>;
-            key-positions = <13 14>;
+            key-positions = <13 12>;
             layers = <0>;
         };
 
@@ -172,7 +172,7 @@
 
         combo_quote {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <3 4>;
+            key-positions = <2 3>;
             layers = <0>;
         };
 
