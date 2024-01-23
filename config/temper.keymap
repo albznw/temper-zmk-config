@@ -182,6 +182,7 @@
             key-positions = <18 16>;
             layers = <0>;
             require-prior-idle-ms = <150>;
+            timeout-ms = <25>;
         };
 
         combo_fat_arrow {
@@ -189,6 +190,7 @@
             key-positions = <17 16>;
             layers = <0>;
             require-prior-idle-ms = <150>;
+            timeout-ms = <25>;
         };
 
         combo_close_braces {
