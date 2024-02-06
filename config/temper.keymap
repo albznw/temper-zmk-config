@@ -342,10 +342,10 @@
 
         num_layer {
             bindings = <
-&kp EXCLAMATION  &kp AT         &kp KP_SLASH  &kp GRAVE         &kp PRCNT     &kp STAR    &kp N7      &kp N8  &kp N9  &kp COMMA
-&kp HASH         &kp LESS_THAN  &kp PIPE      &kp GREATER_THAN  &kp DLLR      &kp UNDER   &kp N4      &kp N5  &kp N6  &kp PLUS
-&kp BACKSLASH    &kp TILDE      &kp KP_DOT    &kp RBKT          &kp ASTERISK  &kp KP_DOT  &kp N1      &kp N2  &kp N3  &kp SEMI
-                                &trans        &trans            &trans        &kp N0      &kp LSHIFT  &trans
+&kp EXCLAMATION  &kp AT         &kp DOLLAR  &kp GRAVE         &none   &kp STAR   &kp N7      &kp N8  &kp N9  &kp COMMA
+&kp HASH         &kp LESS_THAN  &kp PIPE    &kp GREATER_THAN  &none   &kp UNDER  &kp N4      &kp N5  &kp N6  &kp PLUS
+&kp BACKSLASH    &kp PERCENT    &kp KP_DOT  &kp RBKT          &none   &none      &kp N1      &kp N2  &kp N3  &kp SEMI
+                                &trans      &trans            &trans  &kp N0     &kp LSHIFT  &trans
             >;
         };
 
@@ -369,10 +369,10 @@
 
         macro_layer {
             bindings = <
-&tmux_window_1  &tmux_window_2  &tmux_window_3      &tmux_window_4       &none      &none          &kp LC(SPACE)   &kp LS(LA(E))   &kp LS(LA(Y))   &none
-&kp LG(SPACE)   &kp LA(L)       &kp LG(LS(LC(N4)))  &tmux_session_macro  &none      &kp LA(LS(H))  &kp LS(LA(G))   &kp LA(LS(S))   &kp LS(LA(L))   &none
-&none           &kp LG(X)       &kp LG(C)           &none                &kp LG(V)  &kp LS(LA(A))  &tmux_window_1  &tmux_window_2  &tmux_window_3  &kp LS(LA(W))
-                                &none               &none                &none      &none          &none           &none
+&tmux_window_1  &tmux_window_2  &tmux_window_3      &tmux_window_4       &none  &none          &kp LC(SPACE)   &kp LS(LA(E))   &kp LS(LA(Y))   &none
+&kp LG(SPACE)   &kp LA(L)       &kp LG(LS(LC(N4)))  &tmux_session_macro  &none  &kp LA(LS(H))  &kp LS(LA(G))   &kp LA(LS(S))   &kp LS(LA(L))   &none
+&none           &kp LG(X)       &none               &none                &none  &kp LS(LA(A))  &tmux_window_1  &tmux_window_2  &tmux_window_3  &kp LS(LA(W))
+                                &none               &none                &none  &none          &none           &none
             >;
         };
     };
