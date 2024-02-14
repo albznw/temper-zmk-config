@@ -342,10 +342,10 @@
 
         num_layer {
             bindings = <
-&kp EXCLAMATION  &kp AT         &kp DOLLAR  &kp GRAVE         &none   &kp STAR   &kp N7      &kp N8  &kp N9  &kp COMMA
-&kp HASH         &kp LESS_THAN  &kp PIPE    &kp GREATER_THAN  &none   &kp UNDER  &kp N4      &kp N5  &kp N6  &kp PLUS
-&kp BACKSLASH    &kp CARET      &kp KP_DOT  &kp RBKT          &none   &none      &kp N1      &kp N2  &kp N3  &kp SEMI
-                                &trans      &trans            &trans  &kp N0     &kp LSHIFT  &trans
+&kp EXCLAMATION  &kp AT         &kp DOLLAR  &kp GRAVE         &kp PERCENT  &kp STAR        &kp N7  &kp N8  &kp N9  &kp COMMA
+&kp HASH         &kp LESS_THAN  &kp PIPE    &kp GREATER_THAN  &none        &kp UNDER       &kp N4  &kp N5  &kp N6  &kp PLUS
+&kp BACKSLASH    &kp CARET      &kp KP_DOT  &kp RBKT          &none        &none           &kp N1  &kp N2  &kp N3  &kp SEMI
+                                &trans      &trans            &trans       &kp LEFT_SHIFT  &kp N0  &trans
             >;
         };
 
