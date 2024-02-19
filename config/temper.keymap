@@ -211,6 +211,12 @@
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
+
+        combo_j {
+            bindings = <&kp J>;
+            key-positions = <6 7>;
+            timeout-ms = <20>;
+        };
     };
 
     macros {
