@@ -215,14 +215,14 @@
         combo_j {
             bindings = <&kp J>;
             key-positions = <6 7>;
-            timeout-ms = <20>;
+            timeout-ms = <25>;
             layers = <0>;
         };
 
         combo_k {
             bindings = <&kp K>;
             key-positions = <26 27>;
-            timeout-ms = <20>;
+            timeout-ms = <25>;
             layers = <0>;
         };
     };
