@@ -162,6 +162,7 @@
             key-positions = <19 18>;
             layers = <0>;
             require-prior-idle-ms = <100>;
+            timeout-ms = <30>;
         };
 
         combo_del_word {
