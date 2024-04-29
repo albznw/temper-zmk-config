@@ -320,14 +320,7 @@
         tmux_session_macro: tmux_session_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LCTRL>,
-                <&macro_tap>,
-                <&kp A>,
-                <&macro_release>,
-                <&kp LS(O)>;
-
+            bindings = <&kp LC(A) &kp LS(O)>;
             label = "TMUX_SESSION_MACRO";
         };
     };
