@@ -207,7 +207,7 @@
 &kp Q  &kp W  &kp F  &kp P             &kp B          &kp J      &kp L      &kp U      &kp Y       &kp APOS
 &kp A  &kp R  &kp S  &kp T             &kp G          &kp M      &kp N      &kp E      &kp I       &kp O
 &kp Z  &kp X  &kp C  &kp D             &kp V          &kp K      &kp H      &kp COMMA  &dot_colon  &kp SLASH
-              &sl 2  &sk LEFT_COMMAND  &smart_shft    &kp ENTER  &bspc_del  &sl 3
+              &sl 3  &sk LEFT_COMMAND  &smart_shft    &kp ENTER  &bspc_del  &sl 3
             >;
         };
 
@@ -222,10 +222,10 @@
 
         num_layer {
             bindings = <
-&kp EXCLAMATION  &kp AT         &kp DOLLAR  &kp GRAVE         &none     &kp STAR        &kp N7  &kp N8  &kp N9  &kp COMMA
-&kp HASH         &kp LESS_THAN  &kp PIPE    &kp GREATER_THAN  &none     &kp UNDER       &kp N4  &kp N5  &kp N6  &kp PLUS
-&kp BACKSLASH    &kp CARET      &kp KP_DOT  &kp RBKT          &none     &none           &kp N1  &kp N2  &kp N3  &kp SEMI
-                                &trans      &trans            &trans    &kp LEFT_SHIFT  &kp N0  &trans
+&kp EXCLAMATION  &kp AT         &kp DOLLAR  &kp GRAVE         &none     &trans          &kp N7  &kp N8  &kp N9  &kp EQUAL
+&kp HASH         &kp LESS_THAN  &kp PIPE    &kp GREATER_THAN  &none     &trans          &kp N4  &kp N5  &kp N6  &kp PLUS
+&kp BACKSLASH    &kp CARET      &kp KP_DOT  &kp RBKT          &none     &kp N0          &kp N1  &kp N2  &kp N3  &kp MINUS
+                                &trans      &trans            &trans    &kp LEFT_SHIFT  &trans  &to 0
             >;
         };
 
@@ -233,7 +233,7 @@
             bindings = <
 &kp TAB         &trans           &trans     &trans    &trans       &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)  &trans
 &sk LEFT_SHIFT  &sk LCTRL        &sk LALT   &sk LGUI  &trans       &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp ESC
-&kp C_VOL_DN    &kp C_VOLUME_UP  &kp LG(C)  &none     &kp LG(V)    &trans     &kp LC(D)  &kp LC(U)  &trans     &trans
+&kp C_VOL_DN    &kp C_VOLUME_UP  &kp LG(C)  &none     &kp LG(V)    &to 2      &kp LC(D)  &kp LC(U)  &trans     &trans
                                  &trans     &trans    &trans       &trans     &trans     &trans
             >;
         };
