@@ -192,6 +192,11 @@
             timeout-ms = <25>;
             layers = <0>;
         };
+
+        fn_layer_sticky {
+            bindings = <&sl 4>;
+            key-positions = <35 30>;
+        };
     };
 
     keymap {
